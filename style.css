@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex:1;
+    background-color: #1f2937;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+#header-items{
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+#b1{
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    padding: 75px 25px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main-img{
+    width: 500px;
+    border-radius: 10%;
+   
+}
+
+#heading{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text{
+    color: white;
+    
+}
+
+.button{
+    background-color: rgb(11, 119, 219);
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-width: 0cap; 
+    align-self: flex-start;
+    
+}
+
+.b1-body{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#b2, #b3{
+    display: flex;
+    flex-direction: column;
+}
+
+#b2-heading{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.b2-body{
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.comp{
+    max-width: 150px;
+    min-height: 100px;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.comp-img{
+    border-radius: 15px;
+    border: 2px solid rgb(11, 119, 219);
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    align-self: center;
+}
+
+#b3{
+    background-color: lightgrey;
+    padding: 100px 150px;
+    align-items: center;
+}
+
+.b3-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 750px;
+    flex: 1;
+}
+
+.quote-text{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 24px;
+    font-style: italic;
+    align-self: center;
+}
+
+.quote-author{
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+}
+
+#b4{
+    margin: 25px;
+    background-color: rgb(11, 119, 219);
+    border-radius: 5px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+    align-self: center;
+}
+
+.b4-heading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.end{
+    border-color: white;
+    border-width: 2px;
+}

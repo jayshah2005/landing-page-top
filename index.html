@@ -4,58 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <div>Header Logo</div>
-        <div>
-            <div>Header Link One</div>
-            <div>Header Link Two</div>
-            <div>Header Link Three</div>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <div>This Website is awesome</div>
-            <div>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contraast</div>
-            <button>Sign up</button>
-        </div>
-        <img alt="This is a placeholder for an image">
-    </div>
-
-    <div>
-        <div>Some random information</div>
-        <div>
-            <div>
-                <img alt="Img">
-                 <div>This is some subtext under an illustration or image</div>
-            </div>
-            <div>
-                <img alt="Img">
-                 <div>This is some subtext under an illustration or image</div>
-            </div>
-            <div>
-                <img alt="Img">
-                 <div>This is some subtext under an illustration or image</div>
-            </div>
-            <div>
-                <img alt="Img">
-                 <div>This is some subtext under an illustration or image</div>
+    <div class="container">
+        <div class="header">
+            <div id="logo">Header Logo</div>
+            <div id="header-items">
+                <div>Header Link One</div>
+                <div>Header Link Two</div>
+                <div>Header Link Three</div>
             </div>
         </div>
-
-        <div>
-            <div>This is an inspiring quote, or a testimonial from a customer. Mayber it's just fillinf up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
-            <div>- Thor, God of Thunder</div>
-        </div>
-
-        <div>
-            <div>
-                <div>Call to action! It's time!</div>
-                <div>Sign up for our product b clicking that button right over there!</div>
+    
+        <div id="b1">
+            <div class="b1-body">
+                <div id="heading">This Website is awesome</div>
+                <div class="text">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contraast</div>
+                <button class="button">Sign up</button>
             </div>
-            <button>Download!</button>
+            <img class="main-img"  alt="This is a placeholder for an image" src="./images/mountain.jpg">
+        </div>
+    
+        <div id="b2">
+            <div id="b2-heading">Some random information</div>
+            <div class="b2-body">
+                <div class="comp">
+                    <img alt="Img" class="comp-img" src="./images/city-picture.jpg">
+                     <div>This is some subtext under an illustration or image</div>
+                </div>
+                <div class="comp" >
+                    <img alt="Img" class="comp-img" src="./images/city-picture.jpg">
+                     <div>This is some subtext under an illustration or image</div>
+                </div>
+                <div class="comp">
+                    <img alt="Img" class="comp-img" src="./images/city-picture.jpg">
+                     <div>This is some subtext under an illustration or image</div>
+                </div>
+                <div class="comp">
+                    <img alt="Img" class="comp-img" src="./images/city-picture.jpg">
+                     <div>This is some subtext under an illustration or image</div>
+                </div>
+            </div>
+    
+            <div id="b3">
+                <div class="b3-body">
+                    <div class="quote-text">This is an inspiring quote, or a testimonial from a customer. Mayber it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
+                    <div class="quote-author">- Thor, God of Thunder</div>
+                </div>
+            </div>
+    
+            <div id="b4">
+                <div>
+                    <div class="b4-heading text">Call to action! It's time!</div>
+                    <div class="text">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <button class="button end">Sign Up!</button>
+            </div>
         </div>
     </div>
 </body>
